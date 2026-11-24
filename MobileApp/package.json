@@ -43,7 +43,7 @@
     "zustand": "^5.0.12"
   },
   "private": true,
-  "devDependencies": {
+    "devDependencies": {
     "@types/jest": "29.5.14",
     "babel-jest": "~29.7.0",
     "babel-preset-expo": "~54.0.10",
