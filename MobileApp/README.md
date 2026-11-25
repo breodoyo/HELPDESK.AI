@@ -92,6 +92,8 @@ It has two jobs:
 2. Download `helpdesk-ai-qa-apk` (or `helpdesk-ai-release-apk`) and unzip it.
 3. Copy the `.apk` to an Android device and install it (allow "Install unknown apps").
 
+The CI APK is built for arm64-v8a (most physical Android phones). For x86 emulators, build locally with ./gradlew assembleRelease.
+
 The APK embeds the JavaScript bundle, so it starts without a Metro dev server. CI builds use
 placeholder `EXPO_PUBLIC_*` values, so the app installs and launches but will not connect to
 a real backend.
